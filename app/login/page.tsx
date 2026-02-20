@@ -68,7 +68,7 @@ const LoginPage: FC = () => {
                 <Typography variant="body2" textAlign="center">
                   Don't have an account?{" "}
                   <Link
-                    href="/SignUp"
+                    href="/signup"
                     style={{
                       color: "#ff6b00",
                       fontWeight: "bold",

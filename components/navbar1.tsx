@@ -56,6 +56,21 @@ export default function Navbar() {
           </Stack>
 
           <Stack direction="row" spacing={2} alignItems="center" ml={4}>
+
+            <Button
+              component={Link}
+              href="/login"
+              variant="contained"
+              sx={{               
+                bgcolor: "#ff6b00",
+                borderRadius: "20px",
+                textTransform: "none",
+                "&:hover": { bgcolor: "#e65c00" },
+              }}
+            >
+              Log out
+            </Button>
+
             <MenuIcon sx={{ display: { xs: "block", md: "none" } }} />
           </Stack>
 

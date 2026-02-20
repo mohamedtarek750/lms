@@ -65,7 +65,7 @@ export default function Navbar() {
 
             <Button
               component={Link}
-              href="/SignUp"
+              href="/signup"
               variant="contained"
               sx={{               
                 bgcolor: "#ff6b00",
